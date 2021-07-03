@@ -1,4 +1,4 @@
-
+![download](https://img.shields.io/npm/dt/js2xlsx.svg) ![npm-version](https://img.shields.io/npm/v/js2xlsx.svg) ![license](https://img.shields.io/npm/l/js2xlsx.svg)
 
 ## js2xlsx
 😌 😃 👿 A simple module for excel and js converts each other, which works in the browser and can be used to help manage multilingual entries and so on.
@@ -60,7 +60,7 @@ excel2js('../src/lang','../src/lang.xlsx');
 Convert js to excel(.xlsx/.xls).
 
 **opts**
-Type: `Object`
+Type: `Object`<br/>
 
 `opts.filePath`
 
@@ -71,7 +71,6 @@ Excel's file path.
 `opts.fileName`
 
 Type: `String`<br/>
-Default: `excel`
 
 Excel's name, whose suffix is `.xlsx` or `.xls`.
 
@@ -80,7 +79,7 @@ Excel's name, whose suffix is `.xlsx` or `.xls`.
 Convert excel(.xlsx/.xls) to js.
 
 **opts**
-Type: `Object`
+Type: `Object`<br/>
 
 `opts.filePath`
 
@@ -91,9 +90,9 @@ Excel's file path.
 `opts.fileName`
 
 Type: `String`<br/>
-Default: `excel`
 
 Excel's name, whose suffix is `.xlsx` or `.xls`.
+
 
 ## Supported browsers
 * [xlsx](https://app.saucelabs.com/open_sauce/user/sheetjs)
