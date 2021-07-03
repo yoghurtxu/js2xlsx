@@ -1,6 +1,6 @@
 {
   "name": "js2xlsx",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "😌 😃 👿 A simple module for excel and js converts each other, which works in the browser and can be used to help manage multilingual entries and so on.",
   "main": "dist/js2xlsx.min.js",
   "scripts": {

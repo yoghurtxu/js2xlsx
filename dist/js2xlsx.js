@@ -104,7 +104,7 @@ function excel2js({ filePath, fileName }) {
                     });
                     fs.mkdir(path.join(rootPath, `/${filePath}/${lang}/`), err => {}); //建目录
                     fs.open(path.join(rootPath, `/${filePath}/${lang}/${sheetName}.js`), 'w', function (err, fd) {
-                        var buf = new Buffer('module.exports = ' + JSON.stringify(result, null, 4));
+                        var buf = Buffer.from('module.exports = ' + JSON.stringify(result, null, 4));
                         fs.write(fd, buf, 0, buf.length, 0, function (err, written, buffer) {});
                         console.log('============成功生成' + path.join(rootPath, `/${filePath}/${lang}/${sheetName}.js`) + '文件============');
                     });
